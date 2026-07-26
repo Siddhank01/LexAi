@@ -1,0 +1,8 @@
+sentence-transformers
+faiss-cpu
+scikit-learn
+umap-learn
+hdbscan
+bertopic
+datasets
+python-dotenv

@@ -1,0 +1,11 @@
+# System packages required by Streamlit Community Cloud
+# These are installed via apt-get before pip install
+
+# Required for spaCy's en_core_web_lg model
+build-essential
+
+# Required for FAISS CPU compilation (if building from source)
+libopenblas-dev
+
+# Required for numpy/scipy
+libgfortran5

@@ -1,0 +1,37 @@
+{
+  "evaluation_summary": {
+    "total_cases": 500,
+    "evaluable_cases": 476,
+    "queries_evaluated": 96,
+    "queries_skipped": 4,
+    "eval_k": 5,
+    "relevance_oracle": "shared_ipc_section_and_same_case_type"
+  },
+  "faiss_only": {
+    "MRR@5": 0.5269,
+    "P@5": 0.325,
+    "NDCG@5": 0.5746
+  },
+  "faiss_plus_reranker": {
+    "MRR@5": 0.5269,
+    "P@5": 0.325,
+    "NDCG@5": 0.5746
+  },
+  "reranker_improvement": {
+    "MRR_delta": 0.0,
+    "P5_delta": 0.0,
+    "NDCG_delta": 0.0
+  },
+  "latency": {
+    "avg_embed_ms": 126.2,
+    "avg_faiss_ms": 0.1,
+    "avg_rerank_ms": 680.5,
+    "avg_query_ms": 806.7,
+    "p95_query_ms": 908.7
+  },
+  "model_info": {
+    "embedding_model": "nlpaueb/legal-bert-base-uncased",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "score_column": "entailment (index 2 of 3 NLI labels)"
+  }
+}

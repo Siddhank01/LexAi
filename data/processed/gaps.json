@@ -1,0 +1,28 @@
+[
+  {
+    "cluster_id": 0,
+    "total_cases": 2681,
+    "positive_outcome_count": 2049,
+    "negative_outcome_count": 574,
+    "convicted_count": 193,
+    "acquitted_count": 1268,
+    "bail_granted_count": 781,
+    "bail_rejected_count": 381,
+    "inconsistency_score": 0.214,
+    "common_ipc_sections": [
+      "302",
+      "34",
+      "313",
+      "120B",
+      "420"
+    ],
+    "dominant_case_type": "criminal",
+    "courts_involved": [
+      "Chhattisgarh High Court",
+      "High Court of Jammu & Kashmir and Ladakh",
+      "Karnataka High Court, Bangalore",
+      "Madras High Court",
+      "Jammu & Kashmir and Ladakh High Court, Srinagar Bench"
+    ]
+  }
+]
