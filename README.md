@@ -381,6 +381,14 @@ See [LICENSE](LICENSE) for details.
 
 </div>
 
+<div align="center">
+
+**Siddhank** — AI/ML Engineer
+
+[![GitHub](https://img.shields.io/badge/GitHub-Satyam810-181717?style=for-the-badge&logo=github)](https://github.com/Satyam810)
+
+</div>
+
 ---
 
 <div align="center">
